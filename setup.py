@@ -12,10 +12,9 @@ setup(
     version='0.0.1',
     description="""Plugin for automatically creating test cases, test
     executions and update of the test case status in test execution.""",
-    url='nothing'
-    auth='Steph Wollgarten'
-    author_email='s.wollgarten@gmail.com'
-    packages=['pytest_xray']
+    auth='Steph Wollgarten',
+    author_email='s.wollgarten@gmail.com',
+    packages=['pytest_xray'],
     install_required=REQUIRED_PACKAGES,
     entry_points={
         'pytest11': ['xray = pytest_xray.plugin', ],
